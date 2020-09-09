@@ -1,0 +1,29 @@
+.basket-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+.basket-item > img{
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+   
+}
+
+.basket-item__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 100%;
+    
+}
+
+.basket-item__info > button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
